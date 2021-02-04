@@ -1,0 +1,32 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    </header>
+    <div>
+<p>test</p>
+
+        <table>
+            <tr>
+                <th>{{localize "cpr.weapon.skill"}} </th>
+                <th>{{localize "cpr.weapon.damage}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.skill">
+                        {{#select data.skill}}
+                        {{#each config.attackTypes as |name type|}}
+                    <option value="{{type}}">{{name}}</option>
+                    {{/each}}
+                    {{/select}}
+                    </select>
+                </td>
+            
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage"}} data-dtype="number">
+                </td>
+            </tr>
+        </table>
+</div>
+    
+</form>

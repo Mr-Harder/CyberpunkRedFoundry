@@ -1,0 +1,51 @@
+{
+    "cpr": {
+        "attack": {
+            "none": "",
+            "rangedSS": "Single Shot",
+            "rangedAimed": "Aimed Shot",
+            "rangedAutofire": "Autofire",
+            "rangedSuppress": "Suppressive Fire",
+            "rangedShell": "Shotgun Shell",
+            "rangedThrow": "Throw Object",
+            "meleeBrawl": "Brawl",
+            "meleeGrab": "Grab",
+            "meleeChoke": "Choke",
+            "meleeThrow": "Throw Person",
+            "meleeMartialAttack": "Martial Art Attack",
+            "martialRecovery": "Recovery",
+            "meleeMartialSpecial": {
+                "aikido": {
+                    "disarmCombo": "Disarming Combination",
+                    "ironGrip": "Iron Grip"
+                },
+                "karate": {
+                    "armourBreak": "Armour Breaking Combination",
+                    "boneBreak": "Bone Breaking Strike"
+                },
+                "judo": {
+                    "counterThrow": "Counter Throw",
+                    "grabEscape": "Grab Escape"
+                },
+                "taikwondo": {
+                    "pressurePoint": "Pressure Point Strike",
+                    "flyKick": "Flying Kick"
+                }
+            }
+        },
+        "weapon": {
+            "damage": "Damage",
+            "skill": "Skill",
+            "ammoCount": "Magazine Size",
+            "ammoType": "Ammo Type",
+            "handsRequired": "Hands Required",
+            "rateOfFire": "Rate Of Fire",
+            "roundsPerFire": "Rounds Per Shot",
+            "concealable": "Concealable",
+            "reloadTime": "Reload Time",
+            "altFire": "Alt Fire",
+            "range": "Range"
+        }
+
+    }
+}
