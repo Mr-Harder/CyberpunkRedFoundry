@@ -1,28 +1,29 @@
 {
-    "name": "cpr",
-    "title": "Cyberpunk Red",
-    "discription": "The Low Life of High Tech", 
-    "version": 0.01,
-    "minimumCoreVerson": "0.7.9",
-    "compatibleCore": "0.7.9",
-    "esmodules": [
-        "cpr.js"
-    ],
-    "styles":[
-        "cpr.css"
-    ],
-    "packs":[
-
-    ],
-    "languages":[
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "gridDistance": 1,
-    "gridUnits": "m",
-    "primaryTokenAttribute": "HP",
-    "initiative": "1d10 + @ref"
+  "name": "cyberpunkred",
+  "title": "Cyberpunk Red",
+  "description": "The Cyberpunk Red system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Mr Harder",
+  "esmodules": ["module/cyberpunkred.js"],
+  "styles": ["css/cyberpunkred.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
 }
