@@ -2,27 +2,28 @@
   "Actor": {
     "types": ["character"],
     "templates": {
-      "base": {
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
-        },
-        "humanity": {
-          "value": 5,
-          "min": 0,
-          "max": 80
-        }
-      }
+
     },
     "character": {
-      "templates": ["base"],
+      
       "biography": "",
       "attributes": {
         "level": {
           "value": 1
+        },
+        "health": {
+            "value": 0,
+            "max": 0
+          },
+        "humanity": {
+            "value": 0,
+            "max": 0
+        },
+        "luckrolls": {
+            "value": 2,
+            "max": 2
         }
-      },
+    },
       "abilities": {
         "int": {
            "value": 2
@@ -60,56 +61,56 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "brawling": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "fighting"
       },
       "concentration": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "will",
+          "ability": "will",
           "group": "awareness"
       },
       "conversation": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "emp",
+          "ability": "emp",
           "group": "social"
       },
       "education": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "evasion": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "fighting"
       },
       "firstAid": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "humanPerception": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "emp",
+          "ability": "emp",
           "group": "social"
       },
       "language0": {
@@ -117,7 +118,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "language1": {
@@ -125,7 +126,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "language2": {
@@ -133,7 +134,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "language3": {
@@ -141,7 +142,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "localExpert0": {
@@ -149,7 +150,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "localExpert1": {
@@ -157,7 +158,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "localExpert2": {
@@ -165,7 +166,7 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "localExpert3": {
@@ -173,217 +174,217 @@
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "martialArts": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "martialArtsAikido": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "martialArtsKarate": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "martialArtsJudo": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "martialArtsTaekwondo": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "perception": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "awareness"
       },
       "persuasion": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "stealth": {
           "min": 2,
           "value": 2,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "conceal": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "awareness"
       },
       "lipReading": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "awareness"
       },
       "tracking": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "awareness"
       },
       "contortionist": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "dance": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "body"
       },
       "endurance": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "will",
+          "ability": "will",
           "group": "body"
       },
       "resistDrugsTorture": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "will",
+          "ability": "will",
           "group": "body"
       },
       "driveLandVehicle": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "control"
       },
       "pilotAirVehicle": {
           "min": 0,
           "value": 0,
           "cost": 21,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "control"
       },
       "pilotSeaVehicle": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "control"
       },
       "riding": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "control"
       },
       "accounting": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "animalHandling": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "bureaucracy": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "business": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "composition": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "criminology": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "cryptography": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "deduction": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "gamble": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "librarySearch": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "science": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "science0": {
@@ -391,7 +392,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "science1": {
@@ -399,7 +400,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "science2": {
@@ -407,7 +408,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "science3": {
@@ -415,42 +416,42 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "tactics": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "wildernessSurvival": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "int",
+          "ability": "int",
           "group": "education"
       },
       "meleeWeapon": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "dex",
+          "ability": "dex",
           "group": "fighting"
       },
       "acting": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "performance"
       },
       "playInstrument": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "performance"
       },
       "playInstrument0": {
@@ -458,7 +459,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "performance"
       },
       "playInstrument1": {
@@ -466,7 +467,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "performance"
       },
       "playInstrument2": {
@@ -474,7 +475,7 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "performance"
       },
       "playInstrument3": {
@@ -482,182 +483,182 @@
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "performance"
       },
       "archery": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "rangedWeapon"
       },
       "autofire": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "rangedWeapon"
       },
       "handgun": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "rangedWeapon"
       },
       "heavyWeapons": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "rangedWeapon"
       },
       "shoulderArms": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "ref",
+          "ability": "ref",
           "group": "rangedWeapon"
       },
       "bribery": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "interrogation": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "personalGrooming": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "streetwise": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "trading": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "wardrobeAndStyle": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "cool",
+          "ability": "cool",
           "group": "social"
       },
       "airVehichleTech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "basicTech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "cybertech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "demolitions": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "electronicsSecurityTech": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "forgery": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "landVehicleTech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "paintDrawSculpt": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "paramedic": {
           "min": 0,
           "value": 0,
           "cost": 2,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "photographyFilm": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "pickLock": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "pickPocket": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "seaVehicleTech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       },
       "weaponsTech": {
           "min": 0,
           "value": 0,
           "cost": 1,
-          "attribute": "tech",
+          "ability": "tech",
           "group": "technique"
       }
   }

@@ -13,9 +13,15 @@ export class cprActor extends Actor {
     const actorData = this.data;
     const data = actorData.data;
     const flags = actorData.flags;
+    
+    data.attributes.health.max = Math.ceil((data.abilities.body.value + data.abilities.will.value)/2) * 5 + 10;
+    data.attributes.humanity.max = 10*data.abilities.emp.value;
+    data.attributes.luckrolls.max = data.abilities.luck.value;
+
 
     // Make separate methods for each Actor type (character, npc, etc.) to keep
     // things organized.
+
     if (actorData.type === 'character') this._prepareCharacterData(actorData);
   }
 
@@ -25,13 +31,8 @@ export class cprActor extends Actor {
   _prepareCharacterData(actorData) {
     const data = actorData.data;
 
-    // Make modifications to data here. For example:
+    
 
-    // Loop through ability scores, and add their modifiers to our sheet output.
-    for (let [key, ability] of Object.entries(data.abilities)) {
-      // Calculate the modifier using d20 rules.
-      ability.mod = Math.floor((ability.value - 10) / 2);
-    }
   }
 
 }

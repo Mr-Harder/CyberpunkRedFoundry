@@ -21,7 +21,7 @@
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
+  "secondaryTokenAttribute": "humanity",
   "url": "",
   "manifest": "",
   "download": "",
